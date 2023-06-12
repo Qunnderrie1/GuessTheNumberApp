@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/GuessTheNumberApp/static/css/main.53059ee8.css",
-    "main.js": "/GuessTheNumberApp/static/js/main.851a4f27.js",
+    "main.css": "/GuessTheNumberApp/static/css/main.8da3321b.css",
+    "main.js": "/GuessTheNumberApp/static/js/main.dafc0921.js",
+    "static/media/patrick.gif": "/GuessTheNumberApp/static/media/patrick.ab7202a50eab86409ddd.gif",
+    "static/media/winsound.mp3": "/GuessTheNumberApp/static/media/winsound.fd2c2fea27379cbc44da.mp3",
     "index.html": "/GuessTheNumberApp/index.html",
-    "main.53059ee8.css.map": "/GuessTheNumberApp/static/css/main.53059ee8.css.map",
-    "main.851a4f27.js.map": "/GuessTheNumberApp/static/js/main.851a4f27.js.map"
+    "main.8da3321b.css.map": "/GuessTheNumberApp/static/css/main.8da3321b.css.map",
+    "main.dafc0921.js.map": "/GuessTheNumberApp/static/js/main.dafc0921.js.map"
   },
   "entrypoints": [
-    "static/css/main.53059ee8.css",
-    "static/js/main.851a4f27.js"
+    "static/css/main.8da3321b.css",
+    "static/js/main.dafc0921.js"
   ]
 }
