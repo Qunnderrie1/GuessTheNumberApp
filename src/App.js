@@ -17,8 +17,6 @@ function App() {
  
 
 
-
-
   const handleGuesNumber = () => {
 
     const emojis = [`\u{1F44D}`, `\u{1F44E}`, '\u{1F60E}', '\u{1F631}' , '\u{1F61E}'];
@@ -29,12 +27,15 @@ function App() {
     if(guessNumber == rand){
 
        // Check for winnwer
-      setGameText("Correct!")
+
+   
+       
+      setGameText("You are correct, Guess Again!")
+      setEmoji(emojis[2])
       setRand(Math.floor(Math.random() * 10))
       setUserScore(userScore + 5)
       setUserChances(userChances + 1)
       setGuessNumber('')
-      setEmoji(emojis[2])
       audio.play()
 
 
@@ -89,9 +90,8 @@ function App() {
     // Check to see if user is out of chances
     if(userChances <= 0){
       setUserChances(5)
-      alert("GAME OVER!")
-      setGameText("")
-      setEmoji(emojis[''])
+      setGameText("Game Over, Guess Again!")
+      setEmoji(emojis[4])
     }
 
 
@@ -117,7 +117,7 @@ function App() {
           <h3>Guess The Number</h3>
           <hr />
           <p>Instructions: You will start the game with 50 points. Input your number and click the 'GUESS' button. You have 5 chances to get the number right. Once you 
-            run out of chances, or you fall below 0 points the game will be over. If you guess correctly, your score and number of chances will increase.   </p>
+            run out of chances, or your points fall below 0 points the game will be over. If you guess correctly, your score and number of chances will increase.   </p>
 
 
 
