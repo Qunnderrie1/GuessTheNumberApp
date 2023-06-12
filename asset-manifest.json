@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GuessTheNumberApp/static/css/main.53059ee8.css",
+    "main.js": "/GuessTheNumberApp/static/js/main.851a4f27.js",
+    "index.html": "/GuessTheNumberApp/index.html",
+    "main.53059ee8.css.map": "/GuessTheNumberApp/static/css/main.53059ee8.css.map",
+    "main.851a4f27.js.map": "/GuessTheNumberApp/static/js/main.851a4f27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53059ee8.css",
+    "static/js/main.851a4f27.js"
+  ]
+}
